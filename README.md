@@ -31,29 +31,34 @@ Note: Used at least two different selector types.
 
 ---
 
-## 2. HTML tags:
+## 2. HTML tags
+- `<!DOCTYPE html`> — declares the document as HTML5
+- `<html>` — root element (with `lang="en"`)
+- `<head>` — document metadata container
+- `<meta>` — metadata entries (charset, viewport)
+- `<title>` — page title
+- `<link rel="stylesheet">` — external stylesheet link
+- `<body>` — document body
 
-- `<!DOCTYPE html>`: declares the document as HTML5
-- `<html>`: root element, includes the `lang` attribute for language
-- `<head>`: contains metadata such as `meta`, `title`, and linked stylesheets
-- `<meta>`: page metadata like charset and viewport settings
-- `<title>`: page title
-- `<link rel="stylesheet">`: links to the CSS file `styles.css`
-- `<body>`: page body
-- `<header>`: page header including main title and description
-- `<nav>`: navigation bar containing navigation items
-- `<ul>` / `<li>`: unordered lists used for navigation and contact lists
-- `<main>`: main content area containing primary content and an `<aside>` sidebar
-- `<section>`: semantic sections (About, Testimonials, Gallery)
-- `<article>`: independent content block (e.g., project description)
-- `<h1>, <h2>, <h3>, <h4>`: heading elements for semantic structure
-- `<p>`: paragraph text
-- `<table>, <caption>, <thead>, <tbody>, <tr>, <th>, <td>`: table structure for project overview
-- `<figure>, <figcaption>`: figure and caption for gallery items
-- `<img>`: image element for loading local or remote images
-- `<svg>`: scalable vector graphic used as a placeholder example in the project
-- `<aside>`: sidebar for contact and form elements
-- `<form>, <label>, <input>, <textarea>, <button>`: form elements for the contact form
-- `<footer>`: page footer
+- `<header>` — site header (title/subtitle)
+- `<nav>` — navigation container
+- `<ul>` / `<li>` — lists used for navigation and contact items
+
+- `<main>` — main content wrapper
+- `<section>` — semantic sections (About, Testimonials, Gallery)
+- `<article>` — content article (Projects/Articles)
+
+- `<h1>, <h2>, <h3>, <h4>` — headings used for section/article titles
+- `<p>` — paragraphs for descriptive text
+
+- `<figure>` / `<figcaption>` — gallery figures and captions
+- `<img>` — images used in the gallery (e.g., `gallery1.png`)
+
+- `<table>` / `<caption>` / `<thead>` / `<tbody>` / `<tr>` / `<th>` / `<td>` — project overview table structure
+
+- `<aside>` — sidebar for contact and social links
+- `<form>` / `<label>` / `<input>` / `<textarea>` / `<button>` — contact form elements
+
+- `<footer>` — page footer
 
 ---

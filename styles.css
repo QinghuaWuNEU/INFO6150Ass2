@@ -24,16 +24,6 @@ nav ul {
     gap: 1rem;
 }
 
-.nav-link {
-    color: #fff;
-    text-decoration: none;
-    padding: 0.25rem 0.5rem;
-    cursor: default; 
-}
-.nav-link:hover {
-    background: rgba(255,255,255,0.08);
-    border-radius: 4px;
-}
 
 /* Button */
 .btn {
@@ -148,7 +138,7 @@ table {
     border: 1px solid #e9eef6;
     transition: transform 200ms ease, box-shadow 200ms ease;
 }
-.gallery-item svg { display: block; width: 100%; height: auto; }
+/* (inline SVG rule removed as not used in current HTML) */
 .gallery-item figcaption { padding: 0.5rem; font-size: 0.9rem; color: #444; }
 .gallery-item:hover {
     transform: scale(1.03);
