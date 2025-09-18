@@ -15,9 +15,9 @@
 
     <nav>
         <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li>About Me</li>
+            <li>Projects</li>
+            <li>Contact</li>
         </ul>
     </nav>
 
@@ -26,30 +26,111 @@
         <div class="primary-content">
             
             <section>
-                <h2>我的技能与服务</h2>
-                <p>这里放置技能列表、工作流程或你提供的服务介绍。</p>
+                <h2 id="about">Ability and Services</h2>
+                <p>Provide software developing services.</p>
+                <p>
+                    <button class="btn primary" type="button">Download CV</button>
+                    <button class="btn secondary" type="button">Contact Me</button>
+                </p>
             </section>
     
             <article>
-                <h2>项目名称/文章标题</h2>
-                <p>这里是项目的详细描述、目标、解决方案和成果。</p>
+                <h2 id="projects">Project/Article</h2>
+                <p>The details, goals, solutions and results.</p>
+                <table class="projects-table" summary="List of projects, roles and completion year">
+                    <caption>Project Overview</caption>
+                    <thead>
+                        <tr>
+                            <th>Projects</th>
+                            <th>Roles</th>
+                            <th>Technologies</th>
+                            <th>Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>AI Resume Reader</td>
+                            <td>Assistant Developer</td>
+                            <td>Python, Deep Learning</td>
+                            <td>2025</td>
+                        </tr>
+                        <tr>
+                            <td>Customer Relationship Management System</td>
+                            <td>Backend Developer</td>
+                            <td>Springboot, Maven</td>
+                            <td>2022</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </table>
                 </article>
+
+                <section id="testimonials" class="testimonials">
+                    <h3>Testimonials</h3>
+                    <div class="testimonials-grid">
+                        <blockquote class="testimonial">
+                            <p>"Qinghua is a highly skilled developer who consistently delivers high-quality work."</p>
+                            <footer>— Alex Johnson, Product Manager</footer>
+                        </blockquote>
+
+                        <blockquote class="testimonial">
+                            <p>"His ability in data visualization is impressive, and the project was delivered on time."</p>
+                            <footer>— Maria Chen, Data Scientist</footer>
+                        </blockquote>
+
+                        <blockquote class="testimonial">
+                            <p>"Qinghua is a reliable team member with strong technical skills."</p>
+                            <footer>— Samuel Lee, Team Lead</footer>
+                        </blockquote>
+                    </div>
+                </section>
+
+                <section id="gallery" class="image-gallery">
+                    <h3>Image Gallery</h3>
+                    <div class="gallery-grid">
+                        <figure class="gallery-item">
+                            <img src="gallery1.png" alt="Gallery image 1" loading="lazy">
+                            <figcaption>Project screenshot 1</figcaption>
+                        </figure>
+                        <figure class="gallery-item">
+                            <img src="gallery2.png" alt="Gallery image 2" loading="lazy">
+                            <figcaption>Project screenshot 2</figcaption>
+                        </figure>
+                    </div>
+                </section>
 
         </div>
 
         <aside>
-            <h3>联系方式与社交媒体</h3>
+            <h3>Contact Information & Social Media</h3>
             <ul>
-                <li>邮箱: your.email@example.com</li>
-                <li>LinkedIn: 链接</li>
-                <li>GitHub: 链接</li>
+                <li>email: wu.qingh@northeaster.edu</li>
+                <li>LinkedIn:: https://www.linkedin.com/in/%E6%B8%85%E5%8D%8E-%E5%90%B4-327810382/</li>
+                <li>GitHub: https://github.com/QinghuaWuNEU</li>
             </ul>
+            
+            <h4 id="contact">Quick Contact</h4>
+            <form class="contact-form" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn primary">Send</button>
+                    <button type="reset" class="btn">Reset</button>
+                </div>
+            </form>
         </aside>
 
     </main>
 
     <footer>
-        <p>&copy; 2024 [你的姓名]。保留所有权利。</p>
+        <p>&copy; 2024 Qinghua Wu. All rights reserved.</p>
     </footer>
 
 </body>
